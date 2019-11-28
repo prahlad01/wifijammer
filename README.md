@@ -55,23 +55,13 @@ python wifijammer [-a AP MAC] [-c CHANNEL] [-d] [-i INTERFACE] [-m MAXIMUM] [-n]
 License
 @@ -83,5 +83,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-***
-* [danmcinerney.org](http://danmcinerney.org)
-* [![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=DanMcInerney&url=https://github.com/DanMcInerney/wifijammer&title=wifijammer&language=&tags=github&category=software) 
-* [![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=DanMcInerney&url=https://github.com/DanMcInerney/wifijammer&title=wifijammer&language=&tags=github&category=software)
-* [![Analytics](https://ga-beacon.appspot.com/UA-46613304-3/wifijammer/README.md)](https://github.com/igrigorik/ga-beacon)
- 19  setup.py 
-@@ -0,0 +1,19 @@
-#!/usr/bin/env python2
-from setuptools import setup
 
-setup(
     name = "wifijammer",
     version = "0.1",
     author = "Mr.Whitehat",
     description = "Continuously jam all wifi clients and access points within range.",
     keywords = "WiFi 802.11 jammer deauth",
-    url = "https://github.com/DanMcInerney/wifijammer",
+    url = "https://github.com/prahlad01/wifijammer",
     scripts=['wifijammer'],
     # py_modules=['wifijammer'],
     install_requires=['scapy'],
